@@ -1,0 +1,64 @@
+:root {
+    --orange: #FF9F1C;
+    --grey: #D9D9D9;
+    --black: #000000;
+    --light-white: #EDF2F4;
+  }
+
+@font-face {
+    font-family: 'GlacialR';
+    src: url('/assets/fonts/Glacial-regular.otf') format('truetype');
+  }
+@font-face {
+    font-family: 'GlacialB';
+    src: url('/assets/fonts/Glacial-Bold.otf') format('truetype');
+  }
+
+  body{
+    font-family: 'GlacialR';
+  }
+
+  .local__photo{
+    width: 60%;
+  }
+.information__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.confirmation__title{
+    font-family: 'GlacialB';
+    font-size: 1.8rem;
+}
+
+.confirmation__subtitle{
+    color: var(--orange);
+    font-size: 1.3rem;
+    width: 400px;
+}
+
+.confirmation__info{
+    font-family: 'GlacialB';
+}
+
+.number__info{
+    width: 500px;
+    font-size: 1.2rem;
+}
+
+.mail__container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+}
+.color__mail{
+    color: var(--orange);
+}
+.mail__type{
+    font-family: 'GlacialB';
+    font-size: 1.2rem;
+}
